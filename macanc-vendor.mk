@@ -254,44 +254,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/basictone/vig/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Tele \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/basictone/vig/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_UTele \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/basictone/vig/VigTab_Wide:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Wide \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/cfr_bin/CFR_macanExMain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_macanExMain.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/cfr_bin/CFR_macanExWide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_macanExWide.bin \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/cfr_bin/CFR_macanMain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_macanMain.bin \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/cfr_bin/CFR_macanWide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_macanWide.bin \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/camera_third_party_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_third_party_feature_config.protobuf \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/macanFront:$(TARGET_COPY_OUT_ODM)/etc/camera/config/macanFront \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/macanMain:$(TARGET_COPY_OUT_ODM)/etc/camera/config/macanMain \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/macanWide:$(TARGET_COPY_OUT_ODM)/etc/camera/config/macanWide \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/config/quick_visibility_white_list:$(TARGET_COPY_OUT_ODM)/etc/camera/config/quick_visibility_white_list \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/config/video_ai_proc_cfg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_ai_proc_cfg.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/ColorMatrix1_macanMain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_macanMain.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/ColorMatrix1_macanWide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_macanWide.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/ColorMatrix2_macanMain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_macanMain.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/ColorMatrix2_macanWide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_macanWide.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/D28HUESATMap_macanMain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_macanMain.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/D28HUESATMap_macanWide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_macanWide.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/D65HUESATMap_macanMain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_macanMain.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/D65HUESATMap_macanWide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_macanWide.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/ToneCurve_macanMain.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_macanMain.txt \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/dng/ToneCurve_macanWide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_macanWide.txt \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/dolby_vainr_cfg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dolby_vainr_cfg.json \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/facerestore/InitParams.json:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/InitParams.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/facerestore/fr_models/BDET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/BDET.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/facerestore/fr_models/DB.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/DB.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/facerestore/fr_models/FS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/FS.bin \
@@ -672,7 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/filters_res/film_grain_small.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/film_grain_small.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/gamma_masterMode_quick_hdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_masterMode_quick_hdr_conf.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/gamma_photo_hdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_photo_hdr_conf.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/gamma_photo_sdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_photo_sdr_conf.json \
@@ -798,7 +772,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/model_macan_8845.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/model_macan_8845.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/mvg_sat_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/mvg_sat_config.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/oplus_seg_sdk/oppseg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/oppseg.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/oplus_seg_sdk/oppseg_q.dlx:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/oppseg_q.dlx \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/oplus_seg_sdk/petseg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/petseg.json \
@@ -831,6 +804,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/stereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/stereoParams.bin \
@@ -840,7 +814,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/tele_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_inv_mapxy_33x25.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/tele_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_mapxy_33x25.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/text_enhance_yuv_v1.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/text_enhance_yuv_v1.tflite \
-    vendor/oneplus/macanc/proprietary/odm/etc/camera/vainr_cfg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/vainr_cfg.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/video_MLFT_Post_Main.json:$(TARGET_COPY_OUT_ODM)/etc/camera/video_MLFT_Post_Main.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/video_MLFT_Post_Tele.json:$(TARGET_COPY_OUT_ODM)/etc/camera/video_MLFT_Post_Tele.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/video_MLFT_Post_Ultra_Tele.json:$(TARGET_COPY_OUT_ODM)/etc/camera/video_MLFT_Post_Ultra_Tele.json \
@@ -1028,24 +1001,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/lib64/bm6a81v08s14n85.bin:$(TARGET_COPY_OUT_ODM)/lib64/bm6a81v08s14n85.bin \
     vendor/oneplus/macanc/proprietary/odm/lib64/bm6a81v08s14n86.bin:$(TARGET_COPY_OUT_ODM)/lib64/bm6a81v08s14n86.bin \
     vendor/oneplus/macanc/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/awb_parameter_macanFront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_macanFront.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/awb_parameter_macanMain.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_macanMain.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/awb_parameter_macanWide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_macanWide.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.sensormodule.macanFront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.macanFront.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.sensormodule.macanMain.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.macanMain.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.sensormodule.macanWide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.macanWide.bin \
     vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.sensorsocmap.socid_map.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensorsocmap.socid_map.bin \
     vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.tuned.default.canoe.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.default.canoe.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.tuned.molokai_macanFront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.molokai_macanFront.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.tuned.molokai_macanMain.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.molokai_macanMain.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/com.qti.tuned.molokai_macanWide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.molokai_macanWide.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libaecCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam0.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libaecCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam1.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libaecCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam2.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libafCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam0.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libpdCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam2.bin \
-    vendor/oneplus/macanc/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin \
     vendor/oneplus/macanc/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/macanc/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/macanc/proprietary/vendor/etc/display_apollo_list_AA607_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA607_P_7_A0020_dsc_cmd_mode_panel.xml \
@@ -1713,7 +1670,6 @@ PRODUCT_PACKAGES += \
     libsat \
     libsaveshaderbin \
     libsharebuffer \
-    libsharebuffer_impl \
     libssd_det \
     libtensorflowlite_oplus \
     libtfa98xx \
