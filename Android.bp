@@ -11833,6 +11833,51 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libsensorbridge",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensorbridge.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "libutils",
+                "android.frameworks.sensorservice-V1-ndk",
+                "android.hardware.sensors-V3-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensorbridge.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "libutils",
+                "android.frameworks.sensorservice-V1-ndk",
+                "android.hardware.sensors-V3-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libQnnHtpV81Skel.signed.aiframe",
     stem: "libQnnHtpV81Skel",
     owner: "oneplus",
@@ -12072,6 +12117,82 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "aiframe",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.adapter",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera.oemlayer.adapter.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.healthmonitor",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera.oemlayer.healthmonitor.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.logger",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera.oemlayer.logger.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.uilayer",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera.oemlayer.uilayer.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -12804,6 +12925,26 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "hw",
     prefer: true,
     device_specific: true,
 }

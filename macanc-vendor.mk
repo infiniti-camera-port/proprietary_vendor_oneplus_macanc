@@ -1502,6 +1502,7 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libsensorbridge \
     libQnnHtpV81Skel.signed.aiframe \
     libwechatsrubwc_skel \
     libQnnHtpV81Skel.unsigned.aiframe \
@@ -1512,6 +1513,10 @@ PRODUCT_PACKAGES += \
     libaiboost_qnn_external_delegate.aiframe \
     libqcom_llm \
     libtransformer_lite \
+    camera.oemlayer.adapter \
+    camera.oemlayer.healthmonitor \
+    camera.oemlayer.logger \
+    camera.oemlayer.uilayer \
     com.qti.sensor.macanFront \
     com.qti.sensor.macanMain \
     com.qti.sensor.macanWide \
@@ -1530,6 +1535,7 @@ PRODUCT_PACKAGES += \
     libcamxoemsatsoftwarefusionwrapper \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \
