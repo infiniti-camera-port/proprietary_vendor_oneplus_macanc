@@ -10136,35 +10136,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmidasserviceintf",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmidasserviceintf.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhidlbase",
-                "libutils",
-                "libcutils",
-                "vendor.oplus.hardware.cammidasservice@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmidasserviceintf_aidl",
     owner: "oneplus",
     strip: {
@@ -11797,34 +11768,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.cammidasservice@1.0",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.aon-service-impl",
     owner: "oneplus",
     strip: {
@@ -12144,29 +12087,10 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/odm/lib64/camera.oemlayer.adapter.so",
             ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcutils",
-                "libcamxcommonutils",
-                "liblog",
-                "libchilog",
-                "camera.oemlayer.logger",
-                "libhwconfigurationutil",
-                "libutils",
-                "libhardware",
-                "libbinder",
-                "libbinder_ndk",
-                "liboutils",
-                "libchicore",
-                "libocompression",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -12182,42 +12106,10 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/odm/lib64/camera.oemlayer.healthmonitor.so",
             ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libhardware",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libui",
-                "android.hardware.graphics.common@1.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
-                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
-                "libmidasserviceintf_aidl",
-                "android.frameworks.sensorservice@1.0",
-                "libsensorbridge",
-                "libbinder_ndk",
-                "vendor.oplus.hardware.charger-V8-ndk",
-                "liboutils",
-                "libocompression",
-                "vendor.oplus.hardware.commondcs-V1-ndk",
-                "libbinder",
-                "vendor.oplus.hardware.osense.client-V1-ndk",
-                "libosenseaidlhalclient",
-                "libhardware_legacy",
-                "camera.oemlayer.logger",
-                "libhwconfigurationutil",
-                "camera.oemlayer.adapter",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -12233,40 +12125,10 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/odm/lib64/camera.oemlayer.logger.so",
             ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libhardware",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libui",
-                "android.hardware.graphics.common@1.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
-                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
-                "libmidasserviceintf_aidl",
-                "android.frameworks.sensorservice@1.0",
-                "libsensorbridge",
-                "libbinder_ndk",
-                "vendor.oplus.hardware.charger-V8-ndk",
-                "liboutils",
-                "libocompression",
-                "vendor.oplus.hardware.commondcs-V1-ndk",
-                "libbinder",
-                "vendor.oplus.hardware.osense.client-V1-ndk",
-                "libosenseaidlhalclient",
-                "libhardware_legacy",
-                "libhwconfigurationutil",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -12282,41 +12144,10 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/odm/lib64/camera.oemlayer.uilayer.so",
             ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libhardware",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libui",
-                "android.hardware.graphics.common@1.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
-                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
-                "libmidasserviceintf_aidl",
-                "android.frameworks.sensorservice@1.0",
-                "libsensorbridge",
-                "libbinder_ndk",
-                "vendor.oplus.hardware.charger-V8-ndk",
-                "liboutils",
-                "libocompression",
-                "vendor.oplus.hardware.commondcs-V1-ndk",
-                "libbinder",
-                "vendor.oplus.hardware.osense.client-V1-ndk",
-                "libosenseaidlhalclient",
-                "libhardware_legacy",
-                "libhwconfigurationutil",
-                "camera.oemlayer.logger",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -13049,6 +12880,26 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "hw",
     prefer: true,
     device_specific: true,
 }
@@ -16914,6 +16765,35 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libc",
                 "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensorbridge",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensorbridge.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "libutils",
+                "android.frameworks.sensorservice-V1-ndk",
+                "android.hardware.sensors-V3-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },
